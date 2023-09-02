@@ -1,4 +1,5 @@
 import {Button} from "@/components/ui/button.tsx";
+import {CardDemo} from "@/components/CardDemo.tsx";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
          <Button
             className={'text-error'}
             onClick={() => console.log('click')}>Click</Button>
+         <CardDemo/>
       </div>
    )
 }
